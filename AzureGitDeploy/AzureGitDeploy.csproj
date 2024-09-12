@@ -4,6 +4,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/629e3018-fa6e-4554-a549-28629b55d05e/resourceGroups/mdresgrp/providers/microsoft.insights/components/AzureGitDeploy</ApplicationInsightsResourceId>
+    <UserSecretsId>fd2bf50f-570e-4cfd-8df3-9c3486494b5e</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>
